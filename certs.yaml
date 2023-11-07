@@ -2,39 +2,47 @@
 certifications:
   Cisco:
     CCENT:
-      100-101: "ICND1 Interconnecting Cisco Networking Devices"
+      code: 100-101
+      description: ICND1 Interconnecting Cisco Networking Devices
     CCNA:
-      200-101: "ICND2 Interconnecting Cisco Networking Devices"
+      code: 200-101
+      description: ICND2 Interconnecting Cisco Networking Devices
   CompTIA:
     A+:
-      count: 2
-        - 220-801
-        - 220-802
+      exams: 2
+      code:
+        part1: 220-801
+        part2: 220-802
     Network+:
-      count: 2
-        - N10-005
-        - N10-006
+      exams: 2
+      code:
+        part1: N10-005
+        part2: N10-006
     Security+:
-      count: 2
-        - SY0-301
-        - SY0-401
+      exams: 2
+      code:
+        part1: SY0-301
+        part2: SY0-401
   Microsoft:
-    98-365: "Windows Server Administration Fundamentals"
-    98-366: "Network Fundmentals"
-    98-367: "Security Fundamentals"
-    70-680: "Configuring Windows 7"
-    70-697: "Configuring Windows 10 Devices"
-    70-685: "Enterprise Desktop Support Tech"
-    70-686: "Enterprise Desktop Administrator"
-    70-687: "Installing Windows 8.x"
-    70-688: "Configuring Windows 8.x"
+    MTA:
+      98-365: Windows Server Administration Fundamentals
+      98-366: Network Fundmentals
+      98-367: Security Fundamentals
+    MCSA:
+      70-680: Configuring Windows 7
+      70-697: Configuring Windows 10 Devices
+      70-685: Enterprise Desktop Support Tech
+      70-686: Enterprise Desktop Administrator
+      70-687: Installing Windows 8.x
+      70-688: Configuring Windows 8.x
   TestOut.com:
     - Client Pro
     - Network Pro
     - Security Pro
     - Routing Pro
     - Switching Pro
-    - Server 2016 Pro
+    - Windows Server 2016 Pro
     - Linux Pro
   Apple:
-    9L0-066: "Troubleshooting Yosemite"
+    code: 9L0-066
+    description: Troubleshooting Yosemite
